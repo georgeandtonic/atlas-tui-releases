@@ -8,7 +8,7 @@
 npm install -g atlas-tui
 ```
 
-The same command updates. As of **v0.14.0** (2026-08-24) the npm registry is the canonical and only distribution channel.
+The same command updates. As of **v0.14.0** the npm registry is the canonical and only distribution channel.
 
 ## Why this repo still exists
 
@@ -26,4 +26,3 @@ npm i -g https://github.com/georgeandtonic/atlas-tui-releases/releases/download/
 ## Source / issues
 
 Source and issue tracker: [georgeandtonic/atlas-tui](https://github.com/georgeandtonic/atlas-tui)
-
