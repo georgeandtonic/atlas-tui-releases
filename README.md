@@ -1,15 +1,29 @@
 # atlas-tui-releases
 
-Public release artifacts for [atlas-tui](https://github.com/georgeandtonic/atlas-tui), the Atlas TUI client. The source repo is private; this repo hosts the release tarballs so they can be installed without GitHub authentication.
+> **This distribution channel is retired.** Install from npm instead.
 
 ## Install / update
 
 ```sh
+npm install -g atlas-tui
+```
+
+The same command updates. As of **v0.14.0** (2026-08-24) the npm registry is the canonical and only distribution channel.
+
+## Why this repo still exists
+
+This repo hosted release tarballs before npm distribution was set up. The newest release here is **v0.13.0** (2026-08-07). Releases stopped here when npm became canonical; the npm registry has been the only source since v0.14.0 and will continue to be.
+
+Old links to these tarballs still work — GitHub keeps the assets — but installing from them gives you a stale build. Use npm.
+
+## Historical install (superseded — do not use for new installs)
+
+```sh
+# Outdated — newest tarball here is v0.13.0; npm has v0.14.1+
 npm i -g https://github.com/georgeandtonic/atlas-tui-releases/releases/download/v<version>/atlas-tui-<version>.tgz
 ```
 
-Replace `<version>` with the latest release tag (e.g. `0.8.0`). See [Releases](https://github.com/georgeandtonic/atlas-tui-releases/releases) for all available versions.
+## Source / issues
 
-## What is this?
+Source and issue tracker: [georgeandtonic/atlas-tui](https://github.com/georgeandtonic/atlas-tui)
 
-Each release of atlas-tui creates a GitHub Release here with the built `.tgz` attached. The source code lives in the private [georgeandtonic/atlas-tui](https://github.com/georgeandtonic/atlas-tui) repository.
